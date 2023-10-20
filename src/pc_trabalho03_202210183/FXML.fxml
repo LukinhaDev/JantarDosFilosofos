@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="750.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pc_trabalho03_202210183.FXMLController">
+    <children>
+      <ImageView fitHeight="771.0" fitWidth="1000.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/ágora.jpg" />
+         </image>
+      </ImageView>
+        <Button fx:id="button" layoutX="30.0" layoutY="343.0" onAction="#handleButtonAction" prefHeight="137.0" prefWidth="228.0" text="PLAY" />
+      <ImageView fx:id="aristoteles" fitHeight="150.0" fitWidth="200.0" layoutX="425.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/aristoteles.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="kant" fitHeight="150.0" fitWidth="200.0" layoutX="599.0" layoutY="443.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/kant.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="nietzsche" fitHeight="150.0" fitWidth="200.0" layoutX="275.0" layoutY="455.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/nietzsche.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="platao" fitHeight="150.0" fitWidth="200.0" layoutX="661.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/platao.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="socrates" fitHeight="150.0" fitWidth="200.0" layoutX="215.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/socrates.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="388.0" fitWidth="348.0" layoutX="326.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/mesa.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="garfo2" fitHeight="94.0" fitWidth="91.0" layoutX="358.0" layoutY="330.0" pickOnBounds="true" preserveRatio="true" rotate="20.0">
+         <image>
+            <Image url="@imagens/garfo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="garfo3" fitHeight="94.0" fitWidth="91.0" layoutX="471.0" layoutY="398.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true" rotate="40.0">
+         <image>
+            <Image url="@imagens/garfo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="garfo1" fitHeight="94.0" fitWidth="91.0" layoutX="395.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@imagens/garfo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="garfo5" fitHeight="94.0" fitWidth="91.0" layoutX="516.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@imagens/garfo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="garfo4" fitHeight="94.0" fitWidth="91.0" layoutX="562.0" layoutY="330.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/garfo.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>
